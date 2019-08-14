@@ -2,13 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>Chris Mikstas Contact</title>
     </head>
     <body>
-        <h2>Contact</h2>
-        <p>Name</p>
-        <p>Email</p>
-        <p>Message</p>
-        <button type="button">Submit</button>
+        <header>
+            <div class="div-header">
+                <div>
+                    <h1 class="div-header-h1">Chris Mikstas</h1>
+                </div>
+                <ul>
+                    <li><a class="header-link" href="contact.html">Contact</a></li>
+                    <li><a class="header-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="header-link" href="index.html">About</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="div-body">
+            <h1 class="main-content-h1">Contact</h1>
+            <div class="contact-field-div">
+                <form> 
+                    <label for="name">Name</label>
+                        <br>
+                    <input name="name" id="name" type="text" class="form-input" placeholder="Your Name" required>
+                        <br>
+                    <label for="email">Email</label>
+                        <br>
+                    <input name="email" id="email" type="text" class="form-input" placeholder="example@gmail.com" required>
+                        <br>
+                    <label for="message">Message</label>
+                        <br>
+                    <textarea name="message" id="message" class="form-input" placeholder="Your Message" rows="10" required></textarea>
+                        <br>
+                    <input type="submit" value="Submit" class="form-submit">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <h6>Copyright &copy</h6>
+        </footer>
     </body>
 </html>
